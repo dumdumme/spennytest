@@ -1,0 +1,33 @@
+.tsWrapper {
+  display: flex;
+  /* flex-basis: 60%; */
+  overflow-x: scroll;
+}
+
+.tsOption {
+  font-family: Avenir-Medium;
+  font-size: 13px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.11px;
+  color: #77869e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1.375rem;
+}
+
+.tsHighlighted {
+  width: 2.375rem;
+  height: 2rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  border-radius: 6px;
+  background-color: #dfe7f5;
+  font-family: Avenir-Heavy;
+  font-size: 13px;
+  font-weight: 900;
+  color: #0047cc;
+}

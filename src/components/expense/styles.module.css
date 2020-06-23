@@ -1,0 +1,52 @@
+.container {
+  height: 3.5rem;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.05);
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.dateCatWrapper {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  margin-left: 0.5rem;
+}
+
+.category {
+  font-family: Avenir-Heavy;
+  font-size: 16px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.4px;
+  color: #042c5c;
+}
+
+.date {
+  font-family: Avenir-Roman;
+  font-size: 0.8125rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.27px;
+  color: #77869e;
+}
+
+.amount {
+  font-family: Avenir-Heavy;
+  font-size: 16px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.4px;
+  color: #ee5a55;
+  margin-right: 1rem;
+}

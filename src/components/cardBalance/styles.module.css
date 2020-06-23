@@ -1,0 +1,76 @@
+.container {
+  margin-top: 2rem;
+  width: 87%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+
+.cardBalance {
+  display: flex;
+  flex-direction: column;
+}
+
+.balanceChange {
+  display: flex;
+  flex-direction: column;
+}
+
+.heading  {
+  font-family: Avenir-Heavy;
+  font-size: 0.8125rem;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.1px;
+  color: #77869e;
+}
+
+.balanceAmount {
+  font-family: Avenir-Black;
+  font-size: 1.875rem;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.85px;
+  color: #042c5c;
+}
+
+.upContainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.75rem;
+}
+
+.downContainer {
+  display: flex;
+  align-items: center;
+}
+
+
+
+.upAmount {
+  font-family: Avenir-Heavy;
+  font-size: 0.75rem;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.3px;
+  color: #1bc773;
+  margin-left: 0.75rem;
+}
+
+.downAmount {
+  font-family: Avenir-Heavy;
+  font-size: 0.75rem;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.3px;
+  color: #f24750;
+  margin-left: 0.75rem;
+}

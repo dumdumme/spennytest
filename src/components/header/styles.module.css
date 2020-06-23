@@ -1,0 +1,19 @@
+.container {
+  display: flex; 
+  flex-grow: 1;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  font-size: 1.25rem;
+  font-family: Avenir-Heavy;
+  font-size: 1.25rem;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: 0.39px;
+  color: #042c5c;
+}

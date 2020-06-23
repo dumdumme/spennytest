@@ -1,0 +1,120 @@
+.container {
+  height: 1.375rem;
+  width: 1.8rem;
+  position: relative;
+  display: flex;
+  border: 1px solid #000000;
+}
+
+.rectangleLeft {
+  height: 0.62rem;
+  width: 0.68rem;
+  background-color: #0eafe6;
+  position: absolute;
+  left: -0.14rem;
+  top: 0.25rem;
+  border: 2px solid #f8f9f9;
+}
+
+.rectangleRight {
+  height: 22px;
+  width: 22px;
+  background-color: #0047cc;
+  position: absolute;
+  right: 0;
+  border-radius: 0.2rem;
+}
+
+.triangleWhite {
+  position: absolute;
+	background-color: #f8f9f9;
+  text-align: left;
+  left: 0.47rem;
+  top: 0.2rem;
+}
+.triangleWhite:before,
+.triangleWhite:after {
+	content: '';
+	position: absolute;
+	background-color: inherit;
+}
+.triangleWhite,
+.triangleWhite:before,
+.triangleWhite:after {
+	width:  1rem;
+	height: 1rem;
+	border-top-right-radius: 65%;
+}
+
+.triangleWhite {
+  transform: rotate(45deg) skewX(0deg) scale(0.5);
+}
+.triangleWhite:before {
+	transform: rotate(-135deg) skewX(-50deg) scale(1.414,.707) translate(0,-50%);
+}
+.triangleWhite:after {
+	transform: rotate(135deg) skewY(-50deg) scale(.707,1.414) translate(50%);
+}
+
+
+.triangleBlue {
+  position: absolute;
+	background-color: #0eafe6;
+  text-align: left;
+  left: 0.54rem;
+  top: 0.34rem;
+}
+.triangleBlue:before,
+.triangleBlue:after {
+	content: '';
+	position: absolute;
+	background-color: inherit;
+}
+.triangleBlue,
+.triangleBlue:before,
+.triangleBlue:after {
+	width:  0.74rem;
+	height: 0.74rem;
+	border-top-right-radius: 65%;
+}
+
+.triangleBlue {
+	transform: rotate(45deg) skewX(0deg) scale(0.5);
+}
+.triangleBlue:before {
+	transform: rotate(-135deg) skewX(-45deg) scale(1.414,.707) translate(0,-50%);
+}
+.triangleBlue:after {
+	transform: rotate(135deg) skewY(-45deg) scale(.707,1.414) translate(50%);
+}
+
+/* .diffArrow {
+  position: relative;
+  background-color: #20C0F1;
+  text-align: left;
+  width: 8px;
+  height: 8px;
+  border-top-right-radius: 50%;
+}
+
+.diffArrow:before,
+.diffArrow:after {
+  content: '';
+  position: absolute;
+  background-color: inherit;
+  width: 8px;
+  height: 8px;
+  border-top-right-radius: 50%;
+}
+
+.diffArrow {
+  transform: rotate(22deg) skewX(-30deg) scale(0.5);
+}
+
+.diffArrow:before {
+  transform: rotate(-135deg) skewX(-45deg) scale(1.414, .707) translate(0, -50%);
+}
+
+.diffArrow:after {
+  transform: rotate(135deg) skewY(-45deg) scale(.707, 1.414) translate(50%);
+} */

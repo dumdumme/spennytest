@@ -1,0 +1,65 @@
+.ddHeader {
+  display: flex;
+  width: 6.25rem;
+  height: 2rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 18.5px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.05);
+  background-color: #ffffff;
+}
+
+.ddHeaderTitle {
+  font-family: Avenir-Heavy;
+  font-size: 0.8125rem;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.11px;
+  color: #77869e;
+  margin-right: 0.75rem;
+}
+
+.ddItemList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  border-radius: 5px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.05);
+  background-color: #ffffff;
+  padding-top: 0.4rem;
+}
+
+.listItem {
+  font-family: Avenir-Heavy;
+  font-size: 0.8125rem;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.11px;
+  color: #77869e;
+  margin-right: 0.75rem;
+  list-style: none;
+  margin-bottom: 0.4rem;
+  padding-right: 0;
+}
+
+.arrow {
+  border: solid #77869e;
+  border-width: 0 1px 1px 0;
+  padding: 2px;
+}
+
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}

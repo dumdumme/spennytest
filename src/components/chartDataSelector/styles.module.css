@@ -1,0 +1,11 @@
+.cdsWrapper {
+  width: 87%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+
+.dropdownWrapper {
+  margin-right: 2rem;
+}
+
